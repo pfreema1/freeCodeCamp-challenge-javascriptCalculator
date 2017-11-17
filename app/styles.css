@@ -1,0 +1,40 @@
+div {
+    outline: 1px solid red;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container { 
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case {
+    width: 40vw;
+    height: 40vw;
+}
+
+.case__screenContainer {
+    height: 20%;
+    margin-top: 5%;
+}
+
+.case__row {
+    height: 15%;
+}
